@@ -7,6 +7,7 @@ var distance = 0;
 var database;
 
 var form, player, game;
+var advisory,login1,newUser,userData;
 
 
 function setup(){
@@ -23,15 +24,6 @@ function preload(){
 
 
 function draw(){
-  background(immunity);
-  if(playerCount === 4){
-    game.update(1);
-  }
-  if(gameState === 1){
-    clear();
-    
-  }
-  if(gameState === 2){
-    game.end();
-  }
+ // background(immunity);
+  
 }
